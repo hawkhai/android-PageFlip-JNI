@@ -7,7 +7,7 @@
                  android:supportsRtl="true"
                  android:theme="@style/AppTheme"
                  android:largeHeap="true">
-        <activity
+        <activity android:exported="true"
             android:name="com.eschao.android.widget.jni.sample.pageflip.SampleActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
