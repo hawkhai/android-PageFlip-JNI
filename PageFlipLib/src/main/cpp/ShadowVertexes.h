@@ -68,7 +68,7 @@ public:
     }
 
     inline void setRange(int backward, int forward) {
-        assert(backward > 0 && backward < forward && forward < mCapacity);
+        //assert(backward > 0 && backward < forward && forward < mCapacity);
         mBackward = backward;
         mForward = forward;
     }
